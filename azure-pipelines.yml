@@ -7,13 +7,6 @@ trigger:
   tags:
     include:
     - v*
-  branches:
-    include:
-    - master
-    - releases/*
-  paths:
-    exclude:
-    - README.md
 
 variables:
   uploadFiles: wheelhouse/*.whl
